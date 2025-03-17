@@ -16,3 +16,13 @@ To get started with Finance-Web-App, follow these steps:
    ```bash
    git clone <repository-url>
    cd finance-web-app
+2. **Install dependencies**:
+   ```bash
+   npm install
+3. **Configure API Keys**: You will need to manually enter your API keys in the code for each service:
+   - **Bitcoin**: Use [CoinGecko API](https://www.coingecko.com/en/api)
+   - **Gold**: Use [GoldAPI.io](https://www.goldapi.io/)
+   - **Stocks**: Use [Alpha Vantage](https://www.alphavantage.co/)
+   - **News**: Use [NewsAPI.org](https://newsapi.org/)
+
+   Make sure to replace the placeholder API keys in the code with your own.
