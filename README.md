@@ -26,3 +26,16 @@ To get started with Finance-Web-App, follow these steps:
    - **News**: Use [NewsAPI.org](https://newsapi.org/)
 
    Make sure to replace the placeholder API keys in the code with your own.
+4. **Run the application**:
+   ```bash
+   npm start
+   ## Usage
+
+Once the application is running, navigate to `http://localhost:5173/` in your web browser to view the real-time prices for Bitcoin, stocks, and gold, as well as the latest financial news.
+
+## Technologies Used
+
+- **Node.js**: Backend runtime environment.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **APIs**: Fetches data from CoinGecko, GoldAPI.io, Alpha Vantage, and NewsAPI.org.
+  
